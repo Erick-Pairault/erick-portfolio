@@ -25,6 +25,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --card-bg: rgba(0, 0, 0, 0.035);
+  --card-border: rgba(0, 0, 0, 0.12);
+  --card-hover-border: rgba(0, 0, 0, 0.28);
+  --soft-glow: rgba(0, 0, 0, 0.08);
+  --button-bg: rgba(0, 0, 0, 0.04);
+  --button-border: rgba(0, 0, 0, 0.16);
+
   @media (max-width: 1024px) {
     font-size: 16px;
   }
@@ -43,6 +50,13 @@
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+
+    --card-bg: rgba(255, 255, 255, 0.04);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-hover-border: rgba(255, 255, 255, 0.25);
+    --soft-glow: rgba(255, 255, 255, 0.06);
+    --button-bg: rgba(255, 255, 255, 0.03);
+    --button-border: rgba(255, 255, 255, 0.1);
   }
 
   #social .button-icon {
