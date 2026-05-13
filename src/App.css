@@ -192,7 +192,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 20px 40px;
+  padding: 10px 32px;
 
   backdrop-filter: blur(12px);
   background: rgba(15, 15, 20, 0.7);
@@ -209,7 +209,7 @@
 
 .nav-links {
   display: flex;
-  gap: 28px;
+  gap: 20px;
 }
 
 .nav-links a {
@@ -252,10 +252,29 @@
   font-weight: 500;
   cursor: pointer;
   transition: 0.25s ease;
+  padding: 4px 0;
 }
 
 .nav-links button:hover {
   color: #a855f7;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 60px;
+  width: auto;
+
+  object-fit: contain;
+
+  transition: 0.25s ease;
+}
+
+.nav-logo img:hover {
+  transform: scale(1.05);
 }
 
 /* Okay after this we tweak*/

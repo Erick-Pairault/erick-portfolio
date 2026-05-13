@@ -1,7 +1,11 @@
+import logo from "../assets/EP Glow.png";
+
 export default function Navbar({ setCurrentPage }) {
   return (
     <nav className="navbar">
-      <div className="nav-logo">Erick</div>
+      <div className="nav-logo">
+        <img src={logo} alt="EP Logo" />
+      </div>
 
       <div className="nav-links">
         <button onClick={() => setCurrentPage("home")}>Home</button>
