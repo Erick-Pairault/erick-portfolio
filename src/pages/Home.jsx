@@ -57,6 +57,10 @@ export default function Home() {
             </div>
 
             <div className="skill-card">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+            </div>
+
+            <div className="skill-card">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
               <span>Java</span>
             </div>
