@@ -17,15 +17,27 @@ export default function Home() {
         </p>
 
         <div className="hero-buttons">
-          <a href="#projects" className="primary-btn">
-            View Projects
+          <a
+            href="https://www.linkedin.com/in/erick-pairault-17252b264"
+            target="_blank"
+            className="secondary-btn social-btn"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              alt="LinkedIn"
+            />
+            Linked-In
           </a>
 
           <a
-            href="https://github.com/YOUR_USERNAME"
+            href="https://github.com/Erick-Pairault"
             target="_blank"
-            className="secondary-btn"
+            className="secondary-btn social-btn github-btn"
           >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+            />
             GitHub
           </a>
         </div>

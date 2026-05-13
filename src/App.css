@@ -223,7 +223,7 @@
 }
 
 .nav-links a:hover {
-  color: #a855f7;
+  color: white;
 }
 
 .nav-links a::after {
@@ -236,7 +236,7 @@
   width: 0%;
   height: 2px;
 
-  background: #a855f7;
+  background: white;
   transition: width 0.25s ease;
 }
 
@@ -256,7 +256,7 @@
 }
 
 .nav-links button:hover {
-  color: #a855f7;
+  color: white;
 }
 
 .nav-logo {
@@ -277,6 +277,22 @@
   transform: scale(1.05);
 }
 
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-btn img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.github-btn img {
+  filter: invert(1);
+}
 /* Okay after this we tweak*/
 
 h1 {
@@ -303,7 +319,7 @@ h1 {
 }
 
 .eyebrow {
-  color: #a855f7;
+  color: white;
   font-weight: 600;
   margin-bottom: 16px;
   letter-spacing: 2px;
@@ -342,7 +358,11 @@ h1 {
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #9333ea, #7e22ce);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.08)
+  );
   color: white;
 }
 
@@ -357,15 +377,12 @@ h1 {
 }
 
 .secondary-btn:hover {
-  border-color: #a855f7;
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
 .skills-box {
   width: 100%;
-  max-width: 900px;
   box-sizing: border-box;
-
-  align-self: center;
 
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -374,7 +391,7 @@ h1 {
   padding: 32px;
 
   backdrop-filter: blur(14px);
-  box-shadow: 0 0 40px rgba(168, 85, 247, 0.12);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.06);
 }
 
 .skills-grid {
@@ -410,7 +427,7 @@ h1 {
 
 .skill-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(168, 85, 247, 0.5);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .skill-card img {
@@ -427,7 +444,6 @@ h1 {
 
 .tech-sections {
   width: 100%;
-  max-width: 960px;
   box-sizing: border-box;
 
   display: flex;
@@ -435,7 +451,6 @@ h1 {
   gap: 32px;
 
   margin: 20px auto 0;
-  padding: 0 16px;
 }
 
 @media (max-width: 600px) {
