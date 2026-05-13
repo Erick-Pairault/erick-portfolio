@@ -247,7 +247,7 @@
 .nav-links button {
   background: none;
   border: none;
-  color: #d4d4d8;
+  color: var(--text-h);
   font: inherit;
   font-weight: 500;
   cursor: pointer;
@@ -256,7 +256,7 @@
 }
 
 .nav-links button:hover {
-  color: white;
+  color: var(--text-h);
 }
 
 .nav-logo {
@@ -400,6 +400,7 @@ h1 {
   gap: 18px;
 }
 .skills-box h2 {
+  color: var(--text-h);
   margin-bottom: 28px;
   text-align: left;
   font-size: 1.5rem;
@@ -437,7 +438,7 @@ h1 {
 }
 
 .skill-card span {
-  color: white;
+  color: var(--text-h);
   font-weight: 600;
   line-height: 1;
 }
