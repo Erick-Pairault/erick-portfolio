@@ -344,6 +344,7 @@ h1 {
 .skills-box {
   width: 100%;
   max-width: 900px;
+  box-sizing: border-box;
 
   align-self: center;
 
@@ -354,7 +355,6 @@ h1 {
   padding: 32px;
 
   backdrop-filter: blur(14px);
-
   box-shadow: 0 0 40px rgba(168, 85, 247, 0.12);
 }
 
@@ -408,32 +408,28 @@ h1 {
 
 .tech-sections {
   width: 100%;
+  max-width: 960px;
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
-
   gap: 32px;
 
-  margin-top: 20px;
+  margin: 20px auto 0;
+  padding: 0 16px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .hero-section {
-    grid-template-columns: 1fr;
-    padding: 50px 24px;
+    padding: 40px 16px;
   }
 
-  .hero-left {
-    text-align: center;
+  .tech-sections {
+    padding: 0;
   }
 
-  .hero-buttons {
-    justify-content: center;
-  }
-
-  @media (max-width: 900px) {
-    .hero-section {
-      padding: 48px 24px;
-    }
+  .skills-box {
+    padding: 24px 18px;
+    border-radius: 22px;
   }
 }
